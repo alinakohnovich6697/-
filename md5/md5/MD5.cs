@@ -41,8 +41,8 @@ namespace MD5
             }
             set
             {
-                A = 0x67452301;
-                B = 0xEFCDAB89;
+                A = 0;
+                B = 0;
                 C = 0x98BADCFE;
                 D = 0X10325476;
                 input = Encoding.UTF8.GetBytes( value );
